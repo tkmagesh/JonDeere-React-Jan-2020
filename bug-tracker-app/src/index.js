@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import SalaryCalculator from './views/SalaryCalculator';
 import Greeter from './views/Greeter';
+import Products from './views/Products';
 
 //import * as calculator from './calculator';
 //const add = calculator.add;
@@ -22,6 +23,8 @@ import Greeter from './views/Greeter';
 
 ReactDOM.render(
     <div>
+        <Products/>
+        <hr/>
         <Greeter greet="Have a great day!"/>
         <hr/>
         <SalaryCalculator/>

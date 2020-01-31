@@ -34,7 +34,10 @@ class Greeter extends React.Component{
 
 import React, { useState } from 'react';
 
+window['React'] = React;
+
 const Greeter = ({greet}) => {
+    
     const [userName, setUserName] = useState('');
     /* 
     const arr = useState('[Default greet message]');
