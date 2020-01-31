@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
 import SalaryCalculator from './views/SalaryCalculator';
+import Greeter from './views/Greeter';
 
 //import * as calculator from './calculator';
 //const add = calculator.add;
@@ -19,7 +20,12 @@ import SalaryCalculator from './views/SalaryCalculator';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 
-ReactDOM.render(<SalaryCalculator/>,
+ReactDOM.render(
+    <div>
+        <Greeter greet="Have a great day!"/>
+        <hr/>
+        <SalaryCalculator/>
+    </div>,
     document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
