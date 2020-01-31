@@ -24,7 +24,7 @@ import Products from './views/Products';
 import axios from 'axios';
 
 
-import BugTracker from './views/BugTracker';
+import BugTracker from './views/BugTracker/BugTracker';
 
 ReactDOM.render(
     <div>
