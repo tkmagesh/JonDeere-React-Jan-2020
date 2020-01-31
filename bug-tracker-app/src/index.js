@@ -21,13 +21,14 @@ import Products from './views/Products';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 
+import axios from 'axios';
+
+
+import BugTracker from './views/BugTracker';
+
 ReactDOM.render(
     <div>
-        <Products/>
-        <hr/>
-        <Greeter greet="Have a great day!"/>
-        <hr/>
-        <SalaryCalculator/>
+        <BugTracker />
     </div>,
     document.getElementById('root'));
 
