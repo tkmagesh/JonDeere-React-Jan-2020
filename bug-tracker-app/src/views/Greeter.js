@@ -36,8 +36,8 @@ import React, { useState } from 'react';
 
 window['React'] = React;
 
-const Greeter = ({greet}) => {
-    
+const Greeter = (props) => {
+    console.log(props);
     const [userName, setUserName] = useState('');
     /* 
     const arr = useState('[Default greet message]');
@@ -48,7 +48,7 @@ const Greeter = ({greet}) => {
     const [message, setMessage] = useState('[Default greet message]');
 
     const onGreetClick = (evt) => {
-        let greetMessage = `Hi ${userName}, ${greet}`;
+        let greetMessage = `Hi ${userName}, ${props.greet}`;
         setMessage(greetMessage);
     }
     return (

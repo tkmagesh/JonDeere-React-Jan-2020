@@ -1,34 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import './index.css';
-//import App from './App';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
-import SalaryCalculator from './views/SalaryCalculator';
-import Greeter from './views/Greeter';
-import Products from './views/Products';
 
-//import * as calculator from './calculator';
-//const add = calculator.add;
-
-//const { add } = calculator;
-//console.log(calculator);
-
-//import { add } from './calculator';
-
-//importing default export
-//import xyz from './calculator';
-//console.log(xyz);
-
-//ReactDOM.render(<App />, document.getElementById('root'));
-
-import axios from 'axios';
-
-
-import BugTracker from './views/BugTracker/BugTracker';
 
 ReactDOM.render(
     <div>
-        <BugTracker />
+        <App />
     </div>,
     document.getElementById('root'));
 

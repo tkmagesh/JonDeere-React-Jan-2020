@@ -3,9 +3,7 @@ import './BugTracker.css';
 import useBugs from './useBugs';
 import BugEdit from './BugEdit';
 
-
 const BugTracker = () => {
-
     const [bugs, loadBugs, addNew ] = useBugs();
     const bugItems = bugs.map(bug => (
         <li key={bug.id}>
